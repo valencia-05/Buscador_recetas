@@ -16,24 +16,40 @@
     
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark p-3 custom-navbar">
-
+<style>
+        .navbar-nav .nav-link {
+            color: #800080 !important; 
+        }
+        
+        .navbar-nav .nav-link.active {
+            color: #800080 !important;
+            font-weight: bold; 
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: #b300b3 !important; 
+            text-decoration: underline; 
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient p-3">
         <div class="container-fluid">
-            <a class="navbar-brand fs-4" href="index.html">Angel uriel valencia </a>
+            <a class="navbar-brand fs-4" href="index.html">Angel uriel Valencia de la Rosa</a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link fs-4 active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link fs-4" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-4" href="favoritos.html">Mis Favoritos</a>
+                        <a class="nav-link fs-4 active" aria-current="page"  href="favoritos.html">Mis Favoritos</a>
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>
 
